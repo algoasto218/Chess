@@ -1,0 +1,136 @@
+header {
+    background-color: yellow;
+    padding: 10px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    background-color: yellow;
+    color: red;
+    font-size: 30px;
+}
+
+p img {
+    height: 150px;
+    width: 200px;
+}
+
+
+
+a:hover {
+    color: rgba(240, 206, 13, 0.979);
+    background-color: rgb(214, 16, 16);
+}body {
+    font-family: sans-serif;
+}
+
+table {
+    border: 1px solid blueviolet;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+tr:first-child {
+    background-color: red;
+}
+
+td:first-child {
+    background-color: yellow;
+}
+
+.shedule{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+    .s{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid rgb(31, 27, 27);
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.s img {
+    width: 150px;
+    height: 150px;
+}
+
+div{
+display: flex;
+justify-content: center;
+gap:40px;
+}
+
+section{
+    margin:30px;
+    padding:20px;
+
+
+}
+ 
+ article{
+   border:10px dashed  rgba(235, 213, 13, 0.836)
+}
+
+.chess{
+ text-align: left;
+justify-content: left;
+
+}
+
+.chesse{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    background-color:yellow;
+    border-radius:10px;
+    gap:20px;
+    color:red;
+    text-align: center;
+    padding: 30px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    color:yellow;
+    background-color:red;
+}
